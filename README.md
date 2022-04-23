@@ -6,8 +6,8 @@ I tried to build code that was primarliy robust and readable.
 The heart of this is a Flask webservice. You can access it in one of three ways. 
 Firstly, you can find it at docker hub: https://hub.docker.com/r/clefspear99/pixel_cordinate_solver
 Secondly, you can build it yourself. Download all the files and run the following commands
-  docker build -t clefspear99/pixel_cordinate_solver .
-  docker run -d -p 5000:5000 clefspear99/pixel_cordinate_solver
+  "docker build -t clefspear99/pixel_cordinate_solver ."
+  and "docker run -d -p 5000:5000 clefspear99/pixel_cordinate_solver"
 Finially, you can download it and run it from flask.
 
 There is also a folder that contains both a webpage and a python 3 script that sends POST requests to the webpage and displays the response. You can also build your own POST requests with JSON if you are so inclined. Here is the JSON format:
